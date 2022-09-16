@@ -1,10 +1,5 @@
-- React Native + Expo + Typescript ([template](https://github.com/expo/examples/tree/master/with-typescript#-how-to-use))
+- Changes to the official [repository](https://github.com/academind/react-native-practical-guide-code):
+  - use [Typescript](https://github.com/expo/examples/tree/master/with-typescript#-how-to-use)
+  - 
 
-- Install an [Android](https://docs.expo.dev/workflow/android-studio-emulator) emulator then set up the [environment variables](https://youtu.be/ZGIU5aIRi9M?t=480)
-
-- Check the `adb` version:
-
-```bash
-~/AppData/Local/Android/Sdk/platform-tools$ ./adb.exe version
-```
-
+- Some [notes](/napkin.md)
