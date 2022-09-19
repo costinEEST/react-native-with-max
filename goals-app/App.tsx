@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import { StyleSheet, View, FlatList, Button } from 'react-native';
+import {registerRootComponent} from 'expo'
 import { StatusBar } from 'expo-status-bar';
 
-import GoalItem from './goals-app/components/GoalItem';
-import GoalInput from './goals-app/components/GoalInput';
+import GoalItem from './components/GoalItem';
+import GoalInput from './components/GoalInput';
 
 interface Goal {
   text: string
@@ -79,3 +80,5 @@ const styles = StyleSheet.create({
     flex: 5,
   },
 });
+
+registerRootComponent(App)
