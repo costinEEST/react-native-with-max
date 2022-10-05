@@ -12,3 +12,7 @@
 - Define a new Expo [entry point](https://stackoverflow.com/a/58954195/1904223)
 - Debug RN with [`react-devtools`](https://reactnative.dev/docs/debugging#react-developer-tools)
 - Toggle menu (press `m` or `Command D` on iOS or `Control M` on Android)
+- [`elevation`](https://reactnative.dev/docs/view-style-props#elevation-android) style prop adds a drop shadow to the item and affects z-order for overlapping views. O iOS devices it can be replicated using the [`shadow-`](https://reactnative.dev/docs/shadow-props) style prop 
+- [`<ImageBackground>`](https://github.com/facebook/react-native/blob/main/Libraries/Image/ImageBackground.js) source code
+- OpenSans: [bold](https://github.com/academind/react-native-practical-guide-code/blob/04-deep-dive-real-app/extra-files/fonts/OpenSans-Bold.ttf), [regular](https://github.com/academind/react-native-practical-guide-code/blob/04-deep-dive-real-app/extra-files/fonts/OpenSans-Regular.ttf)
+- Images: [background](https://github.com/academind/react-native-practical-guide-code/blob/04-deep-dive-real-app/code/21-finished/assets/images/background.png), [success](https://github.com/academind/react-native-practical-guide-code/blob/04-deep-dive-real-app/code/21-finished/assets/images/success.png)
