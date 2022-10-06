@@ -2,12 +2,9 @@ import { View, Text, Pressable, StyleSheet } from "react-native";
 
 import Colors from "../colors";
 
-import type { CallbackProp, ReactChildrenProp } from "../types";
+import type { PrimaryButtonProps } from "../types";
 
-function PrimaryButton({
-  children,
-  onPress,
-}: ReactChildrenProp & CallbackProp) {
+function PrimaryButton({ children, onPress }: PrimaryButtonProps) {
   return (
     <View style={styles.buttonOuterContainer}>
       <Pressable

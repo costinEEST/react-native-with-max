@@ -10,12 +10,12 @@ export interface GuessLogItemProps {
   guess: number;
 }
 
-export interface ReactNativeStylesProp {
+export interface ReactNativeStyleProp {
   /**
    * Add more types to the union if needed, https://www.saltycrane.com/cheat-sheets/typescript/react/latest/#react-native
    * See also "../node_modules/@types/react-native/index.d.ts"
    * */
-  [key: string]: FlexStyle | ViewStyle | TextStyle | ImageStyle;
+  style?: FlexStyle | ViewStyle | TextStyle | ImageStyle;
 }
 
 export interface CallbackProp {
@@ -26,4 +26,9 @@ export interface GameOverScreenProps {
   roundsNumber: number;
   userNumber: number;
   onStartNewGame: () => void;
+}
+
+export interface PrimaryButtonProps {
+  children?: ReactNode | string;
+  onPress: () => void;
 }

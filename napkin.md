@@ -16,3 +16,4 @@
 - [`<ImageBackground>`](https://github.com/facebook/react-native/blob/main/Libraries/Image/ImageBackground.js) source code
 - OpenSans: [bold](https://github.com/academind/react-native-practical-guide-code/blob/04-deep-dive-real-app/extra-files/fonts/OpenSans-Bold.ttf), [regular](https://github.com/academind/react-native-practical-guide-code/blob/04-deep-dive-real-app/extra-files/fonts/OpenSans-Regular.ttf)
 - Images: [background](https://github.com/academind/react-native-practical-guide-code/blob/04-deep-dive-real-app/code/21-finished/assets/images/background.png), [success](https://github.com/academind/react-native-practical-guide-code/blob/04-deep-dive-real-app/code/21-finished/assets/images/success.png)
+- Check for TypeScript errors then lint the files: `npx tsc --noEmit && eslint`

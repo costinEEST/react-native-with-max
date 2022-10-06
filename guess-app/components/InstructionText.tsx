@@ -2,12 +2,12 @@ import { Text, StyleSheet } from "react-native";
 
 import Colors from "../colors";
 
-import type { ReactChildrenProp, ReactNativeStylesProp } from "../types";
+import type { ReactChildrenProp, ReactNativeStyleProp } from "../types";
 
 function InstructionText({
   children,
   style = {},
-}: ReactChildrenProp & ReactNativeStylesProp) {
+}: ReactChildrenProp & ReactNativeStyleProp) {
   return <Text style={[styles.instructionText, style]}>{children}</Text>;
 }
 
