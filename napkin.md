@@ -17,3 +17,5 @@
 - OpenSans: [bold](https://github.com/academind/react-native-practical-guide-code/blob/04-deep-dive-real-app/extra-files/fonts/OpenSans-Bold.ttf), [regular](https://github.com/academind/react-native-practical-guide-code/blob/04-deep-dive-real-app/extra-files/fonts/OpenSans-Regular.ttf)
 - Images: [background](https://github.com/academind/react-native-practical-guide-code/blob/04-deep-dive-real-app/code/21-finished/assets/images/background.png), [success](https://github.com/academind/react-native-practical-guide-code/blob/04-deep-dive-real-app/code/21-finished/assets/images/success.png)
 - Check for TypeScript errors then lint the files: `npx tsc --noEmit && eslint`
+- How to disable the default [splash screen](https://stackoverflow.com/a/44380281/1904223)?
+- Configure the [orientation](https://docs.expo.dev/versions/latest/config/app/#orientation) mode

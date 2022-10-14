@@ -1,13 +1,22 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, useWindowDimensions } from "react-native";
 
 import Colors from "../colors";
 
 import type { ReactChildrenProp } from "../types";
 
 function NumberContainer({ children }: ReactChildrenProp) {
+  const { width } = useWindowDimensions();
+
   return (
-    <View style={styles.container}>
-      <Text style={styles.numberText}>{children}</Text>
+    <View
+      style={[
+        styles.container,
+        { padding: width < 380 ? 12 : 24, margin: width < 380 ? 12 : 24 },
+      ]}
+    >
+      <Text style={[styles.numberText, { fontSize: width < 380 ? 28 : 36 }]}>
+        {children}
+      </Text>
     </View>
   );
 }
@@ -18,15 +27,12 @@ const styles = StyleSheet.create({
   container: {
     borderWidth: 4,
     borderColor: Colors.accent500,
-    padding: 24,
-    margin: 24,
     borderRadius: 8,
     alignItems: "center",
     justifyContent: "center",
   },
   numberText: {
     color: Colors.accent500,
-    fontSize: 36,
     fontFamily: "open-sans-bold",
   },
 });
