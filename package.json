@@ -1,5 +1,5 @@
 {
-  "main": "/guess-app/App",
+  "main": "/meals-app/App",
   "dependencies": {
     "expo": "^46.0.0",
     "expo-app-loading": "^2.1.0",
